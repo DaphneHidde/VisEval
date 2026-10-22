@@ -29,7 +29,7 @@ let svgElement = document.querySelector('#axes_1');
 return isElementOutsideCanvas(svgElement);
 """
 
-overlapScript = """const isTextOverlap = (parentElement) => {
+overlapScript = r"""const isTextOverlap = (parentElement) => {
     let index = 1;
     let flag = true;
     let textArray = [];
