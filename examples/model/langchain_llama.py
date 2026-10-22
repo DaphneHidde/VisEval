@@ -7,7 +7,7 @@ from typing import Any, List, Optional
 import torch
 from langchain.callbacks.manager import CallbackManagerForLLMRun
 from langchain.chat_models.base import SimpleChatModel
-from langchain.schema import (
+from langchain_core.messages import (
     AIMessage,
     BaseMessage,
     ChatMessage,

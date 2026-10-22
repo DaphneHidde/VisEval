@@ -8,7 +8,7 @@ import sys
 import warnings
 
 from langchain.chat_models.base import BaseChatModel
-from langchain.schema import HumanMessage, SystemMessage
+from langchain_core.messages import SystemMessage, HumanMessage
 
 INSTRUCTION = """You will be provided with a visualization and its specifications. Consider the following aspect:
 

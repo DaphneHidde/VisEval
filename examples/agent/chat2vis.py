@@ -6,7 +6,7 @@ import warnings
 
 import pandas as pd
 from langchain.chat_models.base import BaseChatModel
-from langchain.schema import HumanMessage
+from langchain_core.messages import HumanMessage
 
 from viseval.agent import Agent, ChartExecutionResult
 
